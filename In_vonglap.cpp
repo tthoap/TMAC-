@@ -50,7 +50,7 @@ int main()
     nguoi.cao = 1.58;
     nguoi.can_nang = 55;
     std::cout << nguoi.tuoi << + " " + nguoi.ho_ten << std::endl;
-   Chiso_BMI(nguoi);
+//    Chiso_BMI(nguoi);
     dong_thoi_gian (nguoi,5);
     ConNguoi * pointer = &nguoi;
     std::cout << &pointer << std::endl;
